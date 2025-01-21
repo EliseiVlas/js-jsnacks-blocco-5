@@ -8,5 +8,9 @@ const people = [
 
 people.forEach((nomi) => {
   console.log(nomi.name);
+  
 })
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+// versione compata
+people.forEach(nomi=>console.log(nomi.name))

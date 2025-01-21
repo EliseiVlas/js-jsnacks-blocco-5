@@ -7,3 +7,22 @@ const numeri = numbers.map((somma)=>{
 console.log(numeri);
 
 // Risultato: [3, 9, 5, 8, 3, 88]
+
+
+// versione compata
+console.log('versione compata');
+
+const numeri2 = numbers.map(somma=>somma + 1)
+console.log(numeri2);
+
+
+// versione con for
+console.log('versione con FOR');
+
+let sommaNumeri = [];
+
+for (let i = 0; i < numbers.length; i++){
+    sommaNumeri.push(numbers[i] + 1)
+}
+console.log(sommaNumeri);
+

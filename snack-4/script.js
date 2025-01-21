@@ -13,3 +13,7 @@ const autori = posts.map((nomi) => {
 console.log(autori);
 
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+// versione comapata
+const autori2 = posts.map(nomi => nomi.author) 
+console.log(autori2);

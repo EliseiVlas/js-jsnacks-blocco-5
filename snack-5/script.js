@@ -10,3 +10,8 @@ const pari = nums.filter((numeri)=> {
 console.log(pari);
 
 // Risultato: [2, 8, 4, 12]
+
+// versione compata
+
+const pari2 = nums.filter(numeri => numeri % 2 === 0)
+console.log(pari2);

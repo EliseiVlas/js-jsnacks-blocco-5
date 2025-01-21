@@ -6,3 +6,6 @@ names.forEach((nomi)=> {
     
 })
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
+
+// versione compata
+names.forEach(nomi=>console.log(nomi))
